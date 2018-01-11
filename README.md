@@ -6,7 +6,7 @@ Quickxo is **not** a MVC framework but a compact [KISS](https://en.wikipedia.org
 MVC frameworks  are really great. However, due to the complexity of their APIs, 
 there is additional time learning to use them.
 
-Quickxo provides a quick starting point for a MVC compliant website without the 
+Quickxo provides a quick starting point to get a MVC compliant website without the 
 complexity of a complete MVC framework.
 
 - Quickxo can be used immediately because it is a simple implementation. There is no

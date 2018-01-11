@@ -39,7 +39,7 @@ class Db{
 	public static function getInstance() {
 		if (!self::$instance){
 			try {
-				self::$instance = new PDO('sqlite:' . models_path . 'Quickxo.db');
+				self::$instance = new PDO('sqlite:' . models_path . 'dbName.db');
 				self::$instance-> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 			}
 			catch (PDOException $e) { 
